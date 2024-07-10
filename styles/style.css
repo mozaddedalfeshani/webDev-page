@@ -48,3 +48,138 @@ header button {
   letter-spacing: 0%;
   text-align: center;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 74px;
+}
+
+.outer-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 1140px;
+  height: 1395px;
+  padding: 97px;
+}
+
+.outer-div h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.outerDivP {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: start;
+}
+.card-div {
+  border-radius: 16px;
+  height: 336px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 946px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: " Azeret Mono", sans-serif;
+  justify-content: space-between;
+  margin: 32px 0px;
+  border: 1px solid black;
+  padding: 48px;
+}
+.card-div h2 {
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-div p {
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-div button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  width: 171px;
+  height: 47px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-div1 {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+}
+
+.innerFirstDiv {
+  width: 477px;
+}
+.card-div2 {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.card-div3 {
+  width: 946px;
+  height: 336px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
