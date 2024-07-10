@@ -254,11 +254,14 @@ main {
 }
 
 .lowerDivTarget {
+  width: 1140px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1140px;
+  max-width: 1140px;
+
   align-items: center;
+  padding: 10px;
 }
 .lowerDivTarget div {
   position: static;
@@ -271,10 +274,6 @@ main {
   align-items: flex-start;
   padding: 20px;
   text-align: start;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 24px;
 }
 .lowerDivTarget div h3 {
   color: rgb(13, 19, 33);
