@@ -55,6 +55,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 74px;
+  margin-bottom: 30px;
 }
 
 .outer-div {
@@ -161,4 +162,58 @@ main {
     rgba(255, 255, 255, 0) 100%
   );
   color: rgba(13, 19, 33, 0.7);
+}
+
+.inspiration-section {
+  width: 1140px;
+  height: 777px;
+  margin-top: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.inspiration-section h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration-section p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.inspiration-section div {
+  width: 1140px;
+  height: 614px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.inspiresecdiv iframe {
+  width: 1076px;
+  height: 550px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+  border-radius: 16px;
 }
