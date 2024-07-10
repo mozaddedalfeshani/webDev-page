@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
 header {
   background-image: url("../assets/Hero-bg.png");
   /* Hero-bg */
@@ -325,4 +328,153 @@ main {
   border-radius: 16px;
 
   background: rgba(255, 223, 0, 0.05);
+}
+
+.contactMe {
+  position: absolute;
+  width: 1140px;
+  height: 288px;
+  left: 150px;
+  right: 150px;
+  top: 4752px;
+  bottom: 205px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+
+  border-radius: 16px;
+
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url("../assets/handshake.jpg");
+}
+.foterDiv {
+  border: 1px solid black;
+  object-fit: cover;
+  width: 1180px;
+
+  border-radius: 16px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 48px 64px 48px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg") center/cover no-repeat;
+}
+
+.foterDiv h2 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.foterDiv p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.supportMiniDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.supportMiniDiv input {
+  position: static;
+  width: 548px;
+  height: 58px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.supportMiniDiv button {
+  position: static;
+  width: 120px;
+  height: 58px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px 17px 20px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.foter {
+  width: 1440px;
+  height: 100px;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+}
+.foter div {
+  position: static;
+
+  height: 36px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
 }
